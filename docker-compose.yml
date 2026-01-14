@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  smartload-optimizer:
+    build: .
+    container_name: smartload-optimizer
+    ports:
+      - "8080:8080"
+    environment:
+      # JVM options can be tuned here if needed
+      JAVA_OPTS: "-Xms512m -Xmx1024m"
+    restart: unless-stopped
