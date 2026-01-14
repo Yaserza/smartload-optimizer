@@ -20,9 +20,8 @@ SmartLoad Optimizer is a **Spring Boot** microservice that helps trucking compan
 
 ### Prerequisites
 
-- Java 17
-- Maven 3.9+
-- Docker & Docker Compose (optional)
+- Docker & Docker Compose
+- Java 17 & Maven 3.9+ (optional)
 
 ---
 
