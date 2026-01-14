@@ -26,7 +26,23 @@ SmartLoad Optimizer is a **Spring Boot** microservice that helps trucking compan
 
 ---
 
-### 🛠 Local Build
+## 🐳 Docker Usage
+
+### Build & Run with Docker Compose
+
+```bash
+docker compose up --build
+```
+
+### Stop the Service
+
+```bash
+docker compose down
+```
+
+---
+
+### 🛠 Local Build (Optional)
 
 Build the project using Maven:
 
@@ -44,22 +60,6 @@ The service will be available at:
 
 ```
 http://localhost:8080
-```
-
----
-
-## 🐳 Docker Usage (Optional)
-
-### Build & Run with Docker Compose
-
-```bash
-docker compose up --build
-```
-
-### Stop the Service
-
-```bash
-docker compose down
 ```
 
 ---
